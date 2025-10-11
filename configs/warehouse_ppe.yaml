@@ -1,0 +1,22 @@
+path: ../datasets/processed/warehouse_ppe
+train: train/images
+val: val/images
+test: test/images
+
+names:
+  - person
+  - helmet_on
+  - helmet_off
+  - vest_on
+  - vest_off
+  - mask_on
+  - mask_off
+  - gloves_on
+  - gloves_off
+  - safety_cone
+  - machinery
+  - vehicle
+  - face_shield
+  - ear_protection
+  - hands
+

@@ -1,0 +1,70 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Virtual environments
+venv/
+.env
+.env.local
+.python-version
+
+# Local configuration
+*.log
+*.tmp
+*.cache
+*.bak
+
+# Model weights & checkpoints
+**/*.pt
+**/*.onnx
+**/*.ckpt
+**/*.pth
+
+# Datasets and large media
+datasets/
+*/datasets/
+**/raw/
+**/processed/
+**/results*/
+**/source_files/
+ppe_demo/input/
+ppe_demo/output/
+
+# Local model weights
+ppe_demo/models/
+ppe_demo/*.pt
+
+# Employee images / PII
+ppe_demo/employee_db/**
+
+# YOLO/InsightFace caches
+**/*.cache.yaml
+**/*.cache.json
+**/*.bin
+**/*.npy
+**/*.npz
+
+# Miscellaneous generated binaries & archives
+**/*.zip
+**/*.tar
+**/*.tar.gz
+**/*.7z
+**/*.rar
+**/*.gz
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+
