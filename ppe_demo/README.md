@@ -23,8 +23,9 @@ python main.py --mode video --youtube-url https://www.youtube.com/shorts/_nm1Yb8
 # Webcam (live)
 python main.py --mode webcam --conf 0.3
 ```
+python main.py --mode image --source input/images/test8.png --conf 0.3 --enable-face-recognition --debug
 
-### With Face Recognition
+### With Face Recognitions
 ```bash
 # Enable ArcFace face recognition (requires employee_db/ setup - see below)
 python main.py --mode image --source input/images/test.png --conf 0.3 --enable-face-recognition --debug
